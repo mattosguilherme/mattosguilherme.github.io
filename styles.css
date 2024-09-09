@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+nav {
+    background: #6f4f28; 
+    color: #fff;
+    padding: 2rem 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.hero {
+    background:  center/cover;
+    color: #000000;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero .cta-button {
+    display: inline-block;
+    background: #fff;
+    color: #6f4f28;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+
+.menu {
+    padding: 2rem 0;
+}
+
+.menu .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+.menu-item-info {
+    text-align: left;
+}
+
+.menu-item-info h3 {
+    margin-bottom: 0.5rem;
+}
+
+.menu-item-info span {
+    font-weight: bold;
+    color: #333;
+}
+
+
+.promocoes {
+    background: #f4f4f4;
+    padding: 2rem 0;
+}
+
+.promocoes .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+.promo-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+.promo-info {
+    text-align: left;
+}
+
+.promo-info h3 {
+    margin-bottom: 0.5rem;
+}
+
+
+.contato {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.contato form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato input, .contato textarea {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contato button {
+    background: #6f4f28;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    background: #6f4f28;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
